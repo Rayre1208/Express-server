@@ -13,10 +13,10 @@ async function connectToDatabase() {
 };
 
 
-//connectToDatabase();
+connectToDatabase();
 
 app.get('/', (req, res) => {
-  res.send('Hello, Express! test');
+  res.send('Hello, Express! 0244');
 });
 
 app.listen(port, () => {
