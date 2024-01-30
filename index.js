@@ -13,7 +13,7 @@ async function connectToDatabase() {
 };
 
 
-connectToDatabase();
+//connectToDatabase();
 
 app.get('/', (req, res) => {
   res.send('Hello, Express! test');
