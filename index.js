@@ -16,7 +16,7 @@ async function connectToDatabase() {
 connectToDatabase();
 
 app.get('/', (req, res) => {
-  res.send('Hello, Express! 0244');
+  res.send({ some: 'json' });
 });
 
 app.listen(port, () => {
