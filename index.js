@@ -12,6 +12,8 @@ async function connectToDatabase() {
   console.log('MongoDB connected successfully');
 };
 
+console.log("test")
+
 connectToDatabase();
 
 app.get('/', (req, res) => {
