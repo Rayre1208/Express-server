@@ -10,7 +10,9 @@ mongoose.set('strictQuery', true);
 async function connectToDatabase() {
   await mongoose.connect(`${MONGODB_URI}`);
   console.log('MongoDB connected successfully');
-}
+};
+
+connectToDatabase();
 
 app.get('/', (req, res) => {
   res.send('Hello, Express!');
