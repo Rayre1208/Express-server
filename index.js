@@ -12,12 +12,11 @@ async function connectToDatabase() {
   console.log('MongoDB connected successfully');
 };
 
-console.log("test")
 
 connectToDatabase();
 
 app.get('/', (req, res) => {
-  res.send('Hello, Express!');
+  res.send('Hello, Express! test');
 });
 
 app.listen(port, () => {
